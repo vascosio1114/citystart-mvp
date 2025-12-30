@@ -1,0 +1,142 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  color: #111;
+  background: #f7f7f8;
+}
+
+.header {
+  padding: 20px;
+  background: white;
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+h1 { margin: 0; font-size: 22px; }
+.sub { margin: 6px 0 0; color: #555; font-size: 14px; }
+
+.controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.controls input, .controls select {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: white;
+  font-size: 14px;
+}
+.controls input { width: min(420px, 80vw); }
+
+.main {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 14px;
+  padding: 14px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  background: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  padding: 12px;
+  height: fit-content;
+}
+.sidebar-title { font-weight: 700; margin-bottom: 8px; }
+
+.category-list { list-style: none; padding: 0; margin: 0; }
+.category-list li button {
+  width: 100%;
+  text-align: left;
+  padding: 10px 10px;
+  border: 0;
+  background: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.category-list li button:hover { background: #f3f4f6; }
+.category-list li button.active { background: #111; color: white; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.meta {
+  color: #555;
+  font-size: 13px;
+  padding: 2px 4px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (max-width: 860px) {
+  .main { grid-template-columns: 1fr; }
+  .cards { grid-template-columns: 1fr; }
+}
+
+.card {
+  background: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.card h3 {
+  margin: 0;
+  font-size: 16px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+.badge {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid #ddd;
+  color: #333;
+}
+.badge.must-have { border-color: #111; color: #111; }
+.badge.optional { border-color: #aaa; color: #555; }
+
+.card p { margin: 0; color: #444; font-size: 14px; line-height: 1.35; }
+.card a {
+  margin-top: 2px;
+  color: #0b57d0;
+  text-decoration: none;
+  font-size: 14px;
+}
+.card a:hover { text-decoration: underline; }
+
+.empty {
+  background: white;
+  border: 1px dashed #ccc;
+  border-radius: 14px;
+  padding: 16px;
+  color: #666;
+}
+.hidden { display: none; }
+
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 14px;
+  color: #777;
+  font-size: 12px;
+}

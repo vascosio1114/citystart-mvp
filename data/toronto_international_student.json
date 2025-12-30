@@ -1,0 +1,164 @@
+{
+  "transportation": [
+    {
+      "name": "TTC",
+      "why_need": "Public transit app for subway, bus, and streetcar schedules in Toronto",
+      "priority": "must-have",
+      "website": "https://www.ttc.ca"
+    },
+    {
+      "name": "Google Maps",
+      "why_need": "Route planning for transit, walking, biking, and driving",
+      "priority": "must-have",
+      "website": "https://maps.google.com"
+    },
+    {
+      "name": "Uber",
+      "why_need": "Ride-hailing when public transit is unavailable or late at night",
+      "priority": "optional",
+      "website": "https://www.uber.com"
+    },
+    {
+      "name": "Lyft",
+      "why_need": "Alternative ride-hailing app, sometimes cheaper than Uber",
+      "priority": "optional",
+      "website": "https://www.lyft.com"
+    },
+    {
+      "name": "Transit",
+      "why_need": "Real-time public transit tracking with live bus, subway, and streetcar arrival times",
+      "priority": "must-have",
+      "website": "https://transitapp.com"
+    },
+    {
+      "name": "Bike Share Toronto",
+      "why_need": "Public bike-sharing system for short trips around the city, affordable and convenient",
+      "priority": "optional",
+      "website": "https://bikesharetoronto.com"
+    },
+    {
+      "name": "PRESTO",
+      "why_need": "Manage transit card balance and usage",
+      "priority": "must-have",
+      "website": "https://www.prestocard.ca"
+    }
+  ],
+  "food": [
+    {
+      "name": "Uber Eats",
+      "why_need": "Food delivery from restaurants and fast food",
+      "priority": "must-have",
+      "website": "https://www.ubereats.com",
+      "country_type": "Western / Asian / Mixed"
+    },
+    {
+      "name": "DoorDash",
+      "why_need": "Popular food delivery app with student discounts",
+      "priority": "must-have",
+      "website": "https://www.doordash.com",
+      "country_type": "Western / Asian / Mixed"
+    },
+    {
+      "name": "SkipTheDishes",
+      "why_need": "Canadian-based food delivery service",
+      "priority": "optional",
+      "website": "https://www.skipthedishes.com",
+      "country_type": "Western / Asian"
+    },
+    {
+      "name": "Fantuan",
+      "why_need": "Chinese-focused food delivery platform",
+      "priority": "optional",
+      "website": "https://www.fantuan.ca",
+      "country_type": "Chinese"
+    }
+  ],
+  "grocery": [
+    {
+      "name": "Instacart",
+      "why_need": "Grocery delivery from major supermarkets",
+      "priority": "optional",
+      "website": "https://www.instacart.ca"
+    }
+  ],
+  "shopping": [
+    {
+      "name": "Amazon Canada",
+      "why_need": "Online shopping for essentials, electronics, and textbooks",
+      "priority": "must-have",
+      "website": "https://www.amazon.ca"
+    },
+    {
+      "name": "Walmart",
+      "why_need": "Affordable groceries and daily necessities",
+      "priority": "must-have",
+      "website": "https://www.walmart.ca"
+    }
+  ],
+  "finance": [
+    {
+      "name": "TD Bank",
+      "why_need": "Mobile banking for international students",
+      "priority": "must-have",
+      "website": "https://www.td.com"
+    },
+    {
+      "name": "Scotiabank",
+      "why_need": "Student-friendly bank with newcomer programs",
+      "priority": "must-have",
+      "website": "https://www.scotiabank.com"
+    },
+    {
+      "name": "Wise",
+      "why_need": "International money transfer with low fees",
+      "priority": "must-have",
+      "website": "https://wise.com"
+    }
+  ],
+  "housing": [
+    {
+      "name": "Airbnb",
+      "why_need": "Temporary accommodation when first arriving",
+      "priority": "must-have",
+      "website": "https://www.airbnb.ca"
+    },
+    {
+      "name": "Facebook Marketplace",
+      "why_need": "Finding rooms, furniture, and second-hand items",
+      "priority": "must-have",
+      "website": "https://www.facebook.com/marketplace"
+    },
+    {
+      "name": "Kijiji",
+      "why_need": "Local classified ads for housing and items",
+      "priority": "optional",
+      "website": "https://www.kijiji.ca"
+    }
+  ],
+  "student": [
+    {
+      "name": "Quercus",
+      "why_need": "Course materials, assignments, and announcements (UofT)",
+      "priority": "must-have",
+      "website": "https://q.utoronto.ca"
+    },
+    {
+      "name": "Duo Mobile",
+      "why_need": "Two-factor authentication app required for university login and account security",
+      "priority": "must-have",
+      "website": "https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app"
+    },
+    {
+      "name": "Microsoft Outlook",
+      "why_need": "Official email app for university communication, class updates, and announcements",
+      "priority": "must-have",
+      "website": "https://www.microsoft.com/microsoft-365/outlook"
+    },
+    {
+      "name": "Notion",
+      "why_need": "Note-taking and study organization",
+      "priority": "optional",
+      "website": "https://www.notion.so"
+    }
+  ]
+}

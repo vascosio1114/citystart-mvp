@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CityStart — Toronto (MVP)</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="header">
+    <div>
+      <h1>CityStart — Toronto (MVP)</h1>
+      <p class="sub">
+        Essential apps & services for international students. Data loaded from JSON.
+      </p>
+    </div>
+
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search apps (e.g., TTC, bank, groceries)..." />
+      <select id="priority">
+        <option value="all">All priorities</option>
+        <option value="must-have">must-have</option>
+        <option value="optional">optional</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="main">
+    <aside class="sidebar">
+      <div class="sidebar-title">Categories</div>
+      <ul id="categoryList" class="category-list"></ul>
+    </aside>
+
+    <section class="content">
+      <div class="meta" id="meta"></div>
+      <div id="cards" class="cards"></div>
+      <div id="empty" class="empty hidden">No results. Try another keyword/filter.</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>CityStart MVP • Static HTML demo</span>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
