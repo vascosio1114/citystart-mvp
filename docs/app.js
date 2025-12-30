@@ -132,7 +132,7 @@ function render() {
 
 async function init() {
   // IMPORTANT: open index.html with a local server (not double click), otherwise fetch may fail.
-  const res = await fetch("../data/toronto_international_student.json");
+  const res = await fetch("./data/toronto_international_student.json");
   if (!res.ok) throw new Error("Failed to load JSON. Check path and run via local server.");
   RAW = await res.json();
 
