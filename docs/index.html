@@ -3,20 +3,31 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CityStart — Toronto (MVP)</title>
+  <title>CityStart (MVP)</title>
   <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
   <header class="header">
     <div>
-      <h1>CityStart — Toronto (MVP)</h1>
+      <h1>CityStart — <span id="cityTitle">Toronto</span> (MVP)</h1>
       <p class="sub">
         Essential apps & services for international students. Data loaded from JSON.
       </p>
     </div>
 
     <div class="controls">
-      <input id="search" type="search" placeholder="Search apps (e.g., TTC, bank, groceries)..." />
+      <select id="city">
+        <option value="toronto" selected>Toronto</option>
+        <option value="london">London</option>
+      </select>
+
+      <input
+        id="search"
+        type="search"
+        placeholder="Search apps (e.g., TTC, bank, groceries)..."
+      />
+
       <select id="priority">
         <option value="all">All priorities</option>
         <option value="must-have">must-have</option>
