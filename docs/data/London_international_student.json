@@ -1,0 +1,163 @@
+{
+  "transportation": [
+    {
+      "name": "TfL Go",
+      "why_need": "Public transport in London",
+      "priority": "must-have",
+      "website": "https://tfl.gov.uk",
+      "country_type": "UK"
+    },
+    {
+      "name": "Google Maps",
+      "why_need": "Route planning & navigation",
+      "priority": "must-have",
+      "website": "https://maps.google.com",
+      "country_type": "UK"
+    },
+    {
+      "name": "Uber",
+      "why_need": "Ride-hailing",
+      "priority": "optional",
+      "website": "https://www.uber.com/gb",
+      "country_type": "UK"
+    },
+    {
+      "name": "Bolt",
+      "why_need": "Ride-hailing alternative",
+      "priority": "optional",
+      "website": "https://bolt.eu",
+      "country_type": "UK"
+    },
+    {
+      "name": "Citymapper",
+      "why_need": "Real-time transport",
+      "priority": "must-have",
+      "website": "https://citymapper.com",
+      "country_type": "UK"
+    },
+    {
+      "name": "Oyster",
+      "why_need": "Transport card management",
+      "priority": "must-have",
+      "website": "https://tfl.gov.uk/fares/how-to-pay-and-where-to-buy-tickets-and-oyster",
+      "country_type": "UK"
+    }
+  ],
+  "food": [
+    {
+      "name": "Deliveroo",
+      "why_need": "Food delivery",
+      "priority": "must-have",
+      "website": "https://deliveroo.co.uk",
+      "country_type": "UK"
+    },
+    {
+      "name": "Just Eat",
+      "why_need": "Food delivery",
+      "priority": "must-have",
+      "website": "https://www.just-eat.co.uk",
+      "country_type": "UK"
+    },
+    {
+      "name": "Uber Eats",
+      "why_need": "Food delivery",
+      "priority": "optional",
+      "website": "https://www.ubereats.com/gb",
+      "country_type": "UK"
+    },
+    {
+      "name": "HungryPanda",
+      "why_need": "Chinese food delivery",
+      "priority": "optional",
+      "website": "https://www.hungrypanda.co",
+      "country_type": "UK"
+    }
+  ],
+  "grocery": [
+    {
+      "name": "Tesco",
+      "why_need": "Grocery delivery",
+      "priority": "optional",
+      "website": "https://www.tesco.com",
+      "country_type": "UK"
+    }
+  ],
+  "shopping": [
+    {
+      "name": "Argos",
+      "why_need": "Affordable shopping",
+      "priority": "must-have",
+      "website": "https://www.argos.co.uk",
+      "country_type": "UK"
+    }
+  ],
+  "finance": [
+    {
+      "name": "Monzo",
+      "why_need": "Mobile banking",
+      "priority": "must-have",
+      "website": "https://monzo.com",
+      "country_type": "UK"
+    },
+    {
+      "name": "Barclays",
+      "why_need": "Student banking",
+      "priority": "must-have",
+      "website": "https://www.barclays.co.uk",
+      "country_type": "UK"
+    },
+    {
+      "name": "Wise",
+      "why_need": "International transfers",
+      "priority": "must-have",
+      "website": "https://wise.com",
+      "country_type": "UK"
+    }
+  ],
+  "housing": [
+    {
+      "name": "Airbnb",
+      "why_need": "Temporary housing",
+      "priority": "must-have",
+      "website": "https://www.airbnb.co.uk",
+      "country_type": "UK"
+    },
+    {
+      "name": "Rightmove",
+      "why_need": "Local classifieds",
+      "priority": "optional",
+      "website": "https://www.rightmove.co.uk",
+      "country_type": "UK"
+    }
+  ],
+  "student": [
+    {
+      "name": "University Portal",
+      "why_need": "Course management system",
+      "priority": "must-have",
+      "website": "",
+      "country_type": "UK"
+    },
+    {
+      "name": "Microsoft Authenticator",
+      "why_need": "Two-factor authentication",
+      "priority": "must-have",
+      "website": "https://www.microsoft.com/security/mobile-authenticator-app",
+      "country_type": "UK"
+    },
+    {
+      "name": "Microsoft Outlook",
+      "why_need": "Official email",
+      "priority": "must-have",
+      "website": "https://outlook.office.com",
+      "country_type": "UK"
+    },
+    {
+      "name": "Notion",
+      "why_need": "Note-taking",
+      "priority": "optional",
+      "website": "https://www.notion.so",
+      "country_type": "UK"
+    }
+  ]
+}

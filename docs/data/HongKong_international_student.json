@@ -1,0 +1,163 @@
+{
+  "transportation": [
+    {
+      "name": "MTR Mobile",
+      "why_need": "Public transport & real-time updates",
+      "priority": "must-have",
+      "website": "https://www.mtr.com.hk",
+      "country_type": "HK"
+    },
+    {
+      "name": "Google Maps",
+      "why_need": "Route planning & navigation",
+      "priority": "must-have",
+      "website": "https://maps.google.com",
+      "country_type": "HK"
+    },
+    {
+      "name": "Uber",
+      "why_need": "Ride-hailing",
+      "priority": "optional",
+      "website": "https://www.uber.com/hk",
+      "country_type": "HK"
+    },
+    {
+      "name": "HKTaxi",
+      "why_need": "Taxi booking in Hong Kong",
+      "priority": "optional",
+      "website": "https://www.hktaxiapp.com",
+      "country_type": "HK"
+    },
+    {
+      "name": "Citymapper",
+      "why_need": "Real-time transport planning",
+      "priority": "must-have",
+      "website": "https://citymapper.com",
+      "country_type": "HK"
+    },
+    {
+      "name": "Octopus",
+      "why_need": "Transport & payment card",
+      "priority": "must-have",
+      "website": "https://www.octopus.com.hk",
+      "country_type": "HK"
+    }
+  ],
+  "food": [
+    {
+      "name": "Foodpanda",
+      "why_need": "Food delivery",
+      "priority": "must-have",
+      "website": "https://www.foodpanda.hk",
+      "country_type": "HK"
+    },
+    {
+      "name": "Deliveroo",
+      "why_need": "Food delivery",
+      "priority": "must-have",
+      "website": "https://deliveroo.hk",
+      "country_type": "HK"
+    },
+    {
+      "name": "KeeTa",
+      "why_need": "Local food delivery platform",
+      "priority": "optional",
+      "website": "https://www.keeta.com",
+      "country_type": "HK"
+    },
+    {
+      "name": "OpenRice",
+      "why_need": "Restaurant discovery & delivery",
+      "priority": "optional",
+      "website": "https://www.openrice.com",
+      "country_type": "HK"
+    }
+  ],
+  "grocery": [
+    {
+      "name": "HKTVmall",
+      "why_need": "Online grocery & shopping",
+      "priority": "optional",
+      "website": "https://www.hktvmall.com",
+      "country_type": "HK"
+    }
+  ],
+  "shopping": [
+    {
+      "name": "ParknShop",
+      "why_need": "Supermarket & household items",
+      "priority": "must-have",
+      "website": "https://www.parknshop.com",
+      "country_type": "HK"
+    }
+  ],
+  "finance": [
+    {
+      "name": "HSBC HK",
+      "why_need": "Banking services",
+      "priority": "must-have",
+      "website": "https://www.hsbc.com.hk",
+      "country_type": "HK"
+    },
+    {
+      "name": "Hang Seng Bank",
+      "why_need": "Student banking",
+      "priority": "must-have",
+      "website": "https://www.hangseng.com",
+      "country_type": "HK"
+    },
+    {
+      "name": "Wise",
+      "why_need": "International money transfer",
+      "priority": "must-have",
+      "website": "https://wise.com",
+      "country_type": "HK"
+    }
+  ],
+  "housing": [
+    {
+      "name": "Airbnb",
+      "why_need": "Temporary accommodation",
+      "priority": "must-have",
+      "website": "https://www.airbnb.com.hk",
+      "country_type": "HK"
+    },
+    {
+      "name": "PropertyGuru",
+      "why_need": "Local classifieds & housing",
+      "priority": "optional",
+      "website": "https://www.propertyguru.com.hk",
+      "country_type": "HK"
+    }
+  ],
+  "student": [
+    {
+      "name": "University Portal",
+      "why_need": "Course management system",
+      "priority": "must-have",
+      "website": "",
+      "country_type": "HK"
+    },
+    {
+      "name": "Authy",
+      "why_need": "Two-factor authentication",
+      "priority": "must-have",
+      "website": "https://authy.com",
+      "country_type": "HK"
+    },
+    {
+      "name": "Microsoft Outlook",
+      "why_need": "Official email",
+      "priority": "must-have",
+      "website": "https://outlook.office.com",
+      "country_type": "HK"
+    },
+    {
+      "name": "Notion",
+      "why_need": "Note-taking & productivity",
+      "priority": "optional",
+      "website": "https://www.notion.so",
+      "country_type": "HK"
+    }
+  ]
+}

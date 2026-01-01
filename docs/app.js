@@ -149,7 +149,8 @@ function render() {
 function cityToFile(cityKey) {
   const map = {
     toronto: "toronto_international_student.json",
-    london: "London_international_student.json"
+    london: "London_international_student.json",
+    hongkong: "hongkong_international_student.json"
   };
   return map[cityKey] || map.toronto;
 }
@@ -157,7 +158,8 @@ function cityToFile(cityKey) {
 function cityLabel(cityKey) {
   const map = {
     toronto: "Toronto",
-    london: "London"
+    london: "London",
+    hongkong: "Hong Kong"
   };
   return map[cityKey] || "Toronto";
 }

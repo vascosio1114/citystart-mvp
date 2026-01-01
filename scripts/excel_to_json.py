@@ -3,9 +3,9 @@ import json
 from pathlib import Path
 
 # ====== Paths ======
-EXCEL_PATH = Path("data/Toronto_New_International_Student_Essential_Apps.xlsx")
-OUTPUT_JSON = Path("data/toronto_international_student.json")
-SHEET_NAME = 0  # 如果你想指定 sheet 名稱，可以改成 "Toronto Student Life Apps"
+EXCEL_PATH = Path("docs/data/..._New_International_Student_Essential_Apps.xlsx")
+OUTPUT_JSON = Path("docs/data/..._international_student.json")
+SHEET_NAME = 0  # 如果你想指定 sheet 名稱，可以改成 "... Student Life Apps"
 
 # ====== Read Excel ======
 df = pd.read_excel(EXCEL_PATH, sheet_name=SHEET_NAME)
