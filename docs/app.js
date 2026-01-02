@@ -150,7 +150,7 @@ function cityToFile(cityKey) {
   const map = {
     toronto: "toronto_international_student.json",
     london: "London_international_student.json",
-    hongkong: "hongkong_international_student.json"
+    hongkong: "HongKong_international_student.json"
   };
   return map[cityKey] || map.toronto;
 }
