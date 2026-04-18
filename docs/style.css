@@ -16,15 +16,10 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 h1 { margin: 0; font-size: 24px; color: white; letter-spacing: -0.3px; }
 .sub { margin: 4px 0 0; color: rgba(255,255,255,0.65); font-size: 13px; }
 
-.controls {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
+.controls { display: flex; gap: 10px; align-items: center; }
 .controls input, .controls select {
   padding: 10px 12px;
   border: 1px solid rgba(255,255,255,0.2);
@@ -43,6 +38,25 @@ h1 { margin: 0; font-size: 24px; color: white; letter-spacing: -0.3px; }
   background: rgba(255,255,255,0.18);
 }
 
+/* ===== Page nav (shared across index + city-guide) ===== */
+.guide-nav {
+  display: flex;
+  gap: 10px;
+  padding: 16px 28px 0;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+}
+.guide-nav a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 8px 8px 0 0;
+  transition: all 0.2s;
+}
+.guide-nav a:hover { color: white; background: rgba(255,255,255,0.1); }
+.guide-nav a.active { color: white; background: rgba(255,255,255,0.15); }
+
 .main {
   display: grid;
   grid-template-columns: 240px 1fr;
@@ -51,7 +65,6 @@ h1 { margin: 0; font-size: 24px; color: white; letter-spacing: -0.3px; }
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .sidebar {
   background: white;
   border: 1px solid #e2e8f0;
@@ -60,8 +73,14 @@ h1 { margin: 0; font-size: 24px; color: white; letter-spacing: -0.3px; }
   height: fit-content;
   box-shadow: 0 1px 4px rgba(0,0,0,0.06);
 }
-.sidebar-title { font-weight: 700; margin-bottom: 10px; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; color: #666; }
-
+.sidebar-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #666;
+}
 .category-list { list-style: none; padding: 0; margin: 0; }
 .category-list li button {
   width: 100%;
@@ -78,18 +97,8 @@ h1 { margin: 0; font-size: 24px; color: white; letter-spacing: -0.3px; }
 .category-list li button:hover { background: #f3f4f6; }
 .category-list li button.active { background: #1a1a2e; color: white; font-weight: 600; }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.meta {
-  color: #6b7280;
-  font-size: 13px;
-  padding: 2px 4px;
-}
-
+.content { display: flex; flex-direction: column; gap: 12px; }
+.meta { color: #6b7280; font-size: 13px; padding: 2px 4px; }
 .cards {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -113,10 +122,7 @@ h1 { margin: 0; font-size: 24px; color: white; letter-spacing: -0.3px; }
   box-shadow: 0 1px 4px rgba(0,0,0,0.05);
   transition: box-shadow 0.2s, transform 0.15s;
 }
-.card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
-  transform: translateY(-1px);
-}
+.card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.1); transform: translateY(-1px); }
 .card h3 {
   margin: 0;
   font-size: 16px;
@@ -134,25 +140,10 @@ h1 { margin: 0; font-size: 24px; color: white; letter-spacing: -0.3px; }
   white-space: nowrap;
   flex-shrink: 0;
 }
-.badge.must-have {
-  background: #fff0f0;
-  color: #c0392b;
-  border: 1px solid #f5c6c6;
-}
-.badge.optional {
-  background: #f3f4f6;
-  color: #6b7280;
-  border: 1px solid #e5e7eb;
-}
-
+.badge.must-have { background: #fff0f0; color: #c0392b; border: 1px solid #f5c6c6; }
+.badge.optional { background: #f3f4f6; color: #6b7280; border: 1px solid #e5e7eb; }
 .card p { margin: 0; color: #4b5563; font-size: 14px; line-height: 1.45; }
-.card a {
-  margin-top: auto;
-  color: #0b57d0;
-  text-decoration: none;
-  font-size: 13px;
-  font-weight: 500;
-}
+.card a { margin-top: auto; color: #0b57d0; text-decoration: none; font-size: 13px; font-weight: 500; }
 .card a:hover { text-decoration: underline; }
 
 .empty {
