@@ -1,0 +1,240 @@
+{
+  "toronto": {
+    "food": {
+      "title": "Food & Restaurants",
+      "intro": "Toronto is one of the most multicultural cities in the world — you can literally eat your way around the globe without leaving the city.",
+      "sections": [
+        {
+          "name": "Asian Food",
+          "emoji": "🍜",
+          "items": [
+            { "name": "Scarborough (The Asian Strip)", "desc": "Best area for authentic Chinese, Vietnamese, Korean BBQ, and dim sum. Take the 116 bus from Kennedy station.", "tag": "neighbourhood" },
+            { "name": "Pacific Mall", "desc": "Largest indoor Asian mall in North America. Food court has HK-style milk tea, bubble tea, and everything.", "tag": "landmark" },
+            { "name": "T&T Supermarket", "desc": "The go-to Asian supermarket chain — instant noodles, fresh tofu, Asian sauces, and frozen dumplings all in one place.", "tag": "supermarket" },
+            { "name": "Markham / Richmond Hill", "desc": "For authentic Hong Kong-style cha chaan teng, hot pot, and Taiwanese street food.", "tag": "neighbourhood" }
+          ]
+        },
+        {
+          "name": "Budget Student Eats",
+          "emoji": "💸",
+          "items": [
+            { "name": "No Frills", "desc": "Cheapest mainstream grocery store. Thursday is flyer day — prices drop weekly.", "tag": "supermarket" },
+            { "name": "Food Basics", "desc": "Another budget supermarket, good for produce and dairy.", "tag": "supermarket" },
+            { "name": "Dollarama Food Aisle", "desc": "Pasta, canned goods, instant noodles and snacks for $1–$4. Underrated for stocking your pantry.", "tag": "tip" },
+            { "name": "St. Lawrence Market (Saturdays)", "desc": "Fresh produce, cheese, and bread at great prices. Go close to closing time (4pm) for discounts.", "tag": "market" },
+            { "name": "Kensington Market", "desc": "Independent vendors selling cheap fruit, vintage clothing, and international food. Very UofT-area.", "tag": "neighbourhood" }
+          ]
+        },
+        {
+          "name": "Must-Try Local Food",
+          "emoji": "🍁",
+          "items": [
+            { "name": "Poutine", "desc": "Fries + cheese curds + gravy. Try it from a food truck or Smoke's Poutinerie. It's a Canadian thing.", "tag": "local" },
+            { "name": "Butter Tarts", "desc": "Sweet pastry with caramel filling — a Canadian classic. Found in any bakery.", "tag": "local" },
+            { "name": "Tim Hortons", "desc": "THE Canadian coffee chain. Double Double (2 cream, 2 sugar) is the default order. Cheaper than Starbucks.", "tag": "local" },
+            { "name": "Peameal Bacon Sandwich", "desc": "A Toronto signature from St. Lawrence Market. Very filling, under $10.", "tag": "local" }
+          ]
+        }
+      ]
+    },
+    "supermarkets": {
+      "title": "Supermarkets & Grocery",
+      "intro": "Knowing which supermarket to go to for what can save you a LOT of money every month.",
+      "items": [
+        { "name": "No Frills", "emoji": "🟡", "price": "$", "desc": "Cheapest option. No loyalty card needed. Best for basics: eggs, bread, milk, rice.", "tip": "Check the weekly flyer app before going — prices change every Thursday." },
+        { "name": "Food Basics", "emoji": "🔵", "price": "$", "desc": "Similar to No Frills, often better for fresh produce. Good for fruits and veggies.", "tip": "Great for discount meat near closing time." },
+        { "name": "FreshCo", "emoji": "🟢", "price": "$", "desc": "Budget-friendly with a decent Asian section. Good middle ground between quality and price.", "tip": "Has a decent selection of Asian sauces and noodles." },
+        { "name": "T&T Supermarket", "emoji": "🔴", "price": "$$", "desc": "Asian supermarket chain. Best for: fresh tofu, Asian greens, instant noodles, sauces, snacks.", "tip": "Markham location is biggest. Check the hot food section for cheap ready-made meals." },
+        { "name": "Sobeys / Metro", "emoji": "⚪", "price": "$$", "desc": "Mid-range mainstream grocery. Good quality but pricier. Use their apps for digital coupons.", "tip": "Metro PC Points card gives you cashback. Worth getting." },
+        { "name": "Whole Foods", "emoji": "🌿", "price": "$$$", "desc": "Premium/organic. Not for daily shopping but good for specific items. Amazon Prime members get discounts.", "tip": "Amazon Prime student discount applies here." },
+        { "name": "Costco", "emoji": "🏭", "price": "$", "desc": "Bulk buying warehouse. Membership required (~$65/year). Best for: rice, oil, snacks, toiletries in bulk.", "tip": "Split a membership with 2–3 friends. Each pays ~$20. Great for shared house shopping." }
+      ]
+    },
+    "life": {
+      "title": "Life & Living Tips",
+      "intro": "Practical stuff they don't tell you in the orientation package.",
+      "items": [
+        { "emoji": "🚌", "category": "Transport", "tip": "Get a PRESTO card from any subway station. It's like an Octopus card. Monthly student pass (~$128) is the best deal if you ride TTC daily." },
+        { "emoji": "🏦", "category": "Banking", "tip": "Open a Scotiabank or TD account as a new international student — both offer no-fee student accounts. Bring your study permit and passport." },
+        { "emoji": "📱", "category": "SIM Card", "tip": "Fido and Koodo are the cheapest carriers for international students (~$35/month for decent data). Avoid Rogers/Bell direct — they're expensive." },
+        { "emoji": "🛏️", "category": "Housing", "tip": "Facebook Marketplace and Kijiji are the main platforms for off-campus rooms. Avoid paying deposit before viewing in person. Scams exist." },
+        { "emoji": "🩺", "category": "Health", "tip": "OHIP (Ontario health card) takes 3 months to activate after arrival. Get UHIP (student insurance) from UofT in the meantime — it covers most things." },
+        { "emoji": "🌡️", "category": "Winter", "tip": "Buy a proper winter coat before December. Canadian Tire and Army & Navy have affordable options. A -20°C wind chill is no joke." },
+        { "emoji": "💊", "category": "Pharmacy", "tip": "Shoppers Drug Mart is everywhere and open late. PC Optimum points add up fast. Their generic (Life Brand) medicines are much cheaper." },
+        { "emoji": "📦", "category": "Shopping", "tip": "Amazon Prime Student is free for 6 months then ~$7/month. Highly worth it for fast delivery, especially for textbooks and household items." },
+        { "emoji": "🍂", "category": "Weather", "tip": "Spring and fall are short. Buy a light jacket AND a heavy coat. You'll need both within the same week sometimes." },
+        { "emoji": "🧾", "category": "Tax", "tip": "File your tax return every year even as a student — you'll likely get a refund. TurboTax Free and Wealthsimple Tax are both free for simple returns." }
+      ]
+    },
+    "tips": [
+      { "emoji": "☕", "tag": "Save Money", "title": "Tim Hortons RRROLL Up app", "body": "The Tims app gives you loyalty points on every purchase. A free coffee every ~8 drinks. Way better than Starbucks for students on a budget.", "likes": 142 },
+      { "emoji": "🚇", "tag": "Transport", "title": "Always check the TTC service alert", "body": "TTC delays are frequent esp. Line 1. Download the Transit app — it shows real-time arrivals and alternative bus routes when the subway is down.", "likes": 98 },
+      { "emoji": "🛒", "tag": "Grocery", "title": "The Thursday Flyer Strategy", "body": "No Frills and Food Basics release new weekly deals every Thursday. Plan your grocery shopping around the deals — you can cut your food bill by 30%.", "likes": 211 },
+      { "emoji": "🌨️", "tag": "Winter", "title": "PATH System is your best friend in winter", "body": "Downtown Toronto has an underground walkway called PATH connecting 30+ buildings including Union Station. You can walk 30 minutes in -20°C without going outside.", "likes": 387 },
+      { "emoji": "📚", "tag": "Student Life", "title": "U-Pass vs Monthly TTC Pass", "body": "If your school offers a U-Pass (semester transit pass bundled with tuition), it's way cheaper than buying monthly. Check if your school has it — York does, UofT St George does not.", "likes": 176 },
+      { "emoji": "💰", "tag": "Save Money", "title": "Student discounts are everywhere", "body": "Always ask 'do you have a student discount' — Cineplex, Spotify, Apple, Microsoft 365, Adobe, and even some restaurants give 10–20% off with a valid student ID.", "likes": 263 },
+      { "emoji": "🍱", "tag": "Food", "title": "Meal prep on Sundays = survive the week", "body": "Rice cooker + instant pot are the two most useful kitchen appliances. Cook a big batch of rice + protein on Sunday and you have lunch for the whole week under $20.", "likes": 334 },
+      { "emoji": "🏠", "tag": "Housing", "title": "Look for rooms in Jan / May not Sept", "body": "September is peak season — rooms are expensive and go fast. If you can arrange to arrive in Jan or May, rents are significantly lower and landlords are more negotiable.", "likes": 156 },
+      { "emoji": "❄️", "tag": "Winter", "title": "Layer, don't just buy one thick coat", "body": "A thermal base layer + mid layer fleece + outer shell is warmer and more flexible than one giant coat. You can adjust indoors without sweating.", "likes": 89 },
+      { "emoji": "📱", "tag": "Apps", "title": "Flipp app for grocery deals", "body": "The Flipp app aggregates all weekly flyers from every grocery store. Search any item and it shows you which store has it cheapest this week. Game changer.", "likes": 198 }
+    ]
+  },
+  "london": {
+    "food": {
+      "title": "Food & Restaurants",
+      "intro": "London's food scene is massively diverse — every cuisine imaginable exists here. The key is knowing where to look beyond tourist traps.",
+      "sections": [
+        {
+          "name": "Asian Food",
+          "emoji": "🍜",
+          "items": [
+            { "name": "Chinatown (Soho)", "desc": "Classic Chinatown near Leicester Square. Good for dim sum, BBQ pork, and cheap bubble tea. Touristy but authentic enough.", "tag": "neighbourhood" },
+            { "name": "Wembley (Little India)", "desc": "Ealing Road in Wembley is the best area for South Asian food — curry, samosas, lassi. Very affordable and authentic.", "tag": "neighbourhood" },
+            { "name": "New Malden", "desc": "Largest Korean community outside Korea. Amazing Korean BBQ, Korean fried chicken, and Korean grocery stores.", "tag": "neighbourhood" },
+            { "name": "Peckham / Brixton", "desc": "African and Caribbean food hub. Jerk chicken, fufu, suya — much cheaper and more authentic than central London.", "tag": "neighbourhood" }
+          ]
+        },
+        {
+          "name": "Budget Student Eats",
+          "emoji": "💸",
+          "items": [
+            { "name": "Lidl & Aldi", "desc": "German budget supermarkets — significantly cheaper than Tesco/Sainsbury's. Especially good for meat, dairy, and snacks.", "tag": "supermarket" },
+            { "name": "Pret A Manger (Yellow Label)", "desc": "Every day at 3pm, unsold food gets a yellow reduced sticker. Great hot food for £1–2.", "tag": "tip" },
+            { "name": "Borough Market", "desc": "Famous food market under London Bridge. Expensive to buy a full meal but amazing free samples from vendors.", "tag": "market" },
+            { "name": "Greggs", "desc": "THE British budget food chain. Sausage rolls, breakfast bakes, sandwiches under £2. A student staple.", "tag": "local" }
+          ]
+        },
+        {
+          "name": "Must-Try Local Food",
+          "emoji": "🇬🇧",
+          "items": [
+            { "name": "Full English Breakfast", "desc": "Beans, eggs, bacon, sausage, toast, grilled tomato. Find a proper 'caff' (cafe) in a residential area — not tourist spots — for £5–8.", "tag": "local" },
+            { "name": "Fish & Chips", "desc": "Go to a local chippy, not a tourist-area one. A portion of chips is a filling meal for £2–3.", "tag": "local" },
+            { "name": "Greggs Sausage Roll", "desc": "Iconic British pastry. Warm, flaky, £1.20. A London rite of passage.", "tag": "local" },
+            { "name": "Curry Mile (Brick Lane)", "desc": "Indian/Bangladeshi restaurants on Brick Lane. Bring a student card — many offer free poppadoms or deals.", "tag": "local" }
+          ]
+        }
+      ]
+    },
+    "supermarkets": {
+      "title": "Supermarkets & Grocery",
+      "intro": "Supermarket choice matters a lot in London — there is a huge price difference between budget and premium chains.",
+      "items": [
+        { "name": "Lidl", "emoji": "🔵", "price": "$", "desc": "Cheapest in London. German budget chain with surprisingly good quality. Great for meat, dairy, fruit.", "tip": "Middle aisle has random non-food bargains every week. Check it." },
+        { "name": "Aldi", "emoji": "🔴", "price": "$", "desc": "Same tier as Lidl. More locations across London. Good for everyday staples.", "tip": "Aldi gin and wine are surprisingly good and cheap." },
+        { "name": "Tesco Express / Metro", "emoji": "⚫", "price": "$$", "desc": "Most convenient — literally everywhere. Good for top-ups but not main shops. Clubcard gives good discounts.", "tip": "Get a Tesco Clubcard — it unlocks 'Clubcard prices' which can be 30–50% cheaper." },
+        { "name": "Sainsbury's", "emoji": "🟠", "price": "$$", "desc": "Slightly better quality than Tesco. Nectar card for loyalty points.", "tip": "Sainsbury's own-brand products are great quality for lower prices." },
+        { "name": "Wing Yip / See Woo", "emoji": "🔴", "price": "$$", "desc": "Chinese supermarket chains in London. Best for Asian sauces, fresh noodles, rice in bulk.", "tip": "Wing Yip in Croydon is massive — worth a trip for bulk Asian groceries." },
+        { "name": "Waitrose", "emoji": "🌿", "price": "$$$", "desc": "Premium supermarket. Too expensive for daily shopping but good for specific treats.", "tip": "Free coffee with any purchase — useful if you need a study break near one." },
+        { "name": "Iceland", "emoji": "🧊", "price": "$", "desc": "Budget frozen food specialist. Good for frozen meals, chips, and meat. Good value.", "tip": "Bonus card gives you points. Regular deals on frozen goods." }
+      ]
+    },
+    "life": {
+      "title": "Life & Living Tips",
+      "intro": "London is expensive but manageable if you know the tricks.",
+      "items": [
+        { "emoji": "🚇", "category": "Transport", "tip": "Get an 18+ Student Oyster card from TfL — gives 30% off adult Travelcard and Bus & Tram Pass. Apply online before you arrive." },
+        { "emoji": "🏦", "category": "Banking", "tip": "Open a Monzo or Starling account — free, instant to set up with just a passport, no UK credit history needed. Much easier than traditional banks." },
+        { "emoji": "📱", "category": "SIM Card", "tip": "GiffGaff runs on O2's network and is cheapest — £10/month for 5GB. iD Mobile and Smarty are also great budget options." },
+        { "emoji": "🛏️", "category": "Housing", "tip": "SpareRoom.co.uk is THE platform for rooms. Message many landlords fast — good rooms go within hours. Avoid anything that sounds too good to be true." },
+        { "emoji": "🩺", "category": "Health", "tip": "Register with a GP (doctor) ASAP after arriving. NHS is free but you must be registered first. Find your nearest GP on nhs.uk and bring your student visa." },
+        { "emoji": "🌧️", "category": "Weather", "tip": "Always carry a foldable umbrella. London rain is light but constant. A waterproof jacket is more useful than an umbrella for cycling or walking." },
+        { "emoji": "🎭", "category": "Culture", "tip": "Most major London museums are completely free — British Museum, Natural History Museum, Tate Modern, V&A. Great free entertainment." },
+        { "emoji": "📦", "category": "Shopping", "tip": "Depop, Vinted, and Facebook Marketplace are great for cheap second-hand clothes and furniture. Many students sell everything at the end of the year." },
+        { "emoji": "🧾", "category": "Tax", "tip": "If you work part-time, you may get a tax refund at end of year. Use HMRC's online service. International students can work up to 20 hours/week on a student visa." },
+        { "emoji": "🎓", "category": "Student Perks", "tip": "Get TOTUM (formerly NUS) card for £12/year — discounts at ASOS, Co-op, and hundreds of shops. Also try UNiDAYS app (free) for online student discounts." }
+      ]
+    },
+    "tips": [
+      { "emoji": "🚇", "tag": "Transport", "title": "The £1.75 bus is your best friend", "body": "London bus is capped at £1.75 per ride and daily bus travel is capped at £5.25. For short trips buses are much cheaper than the Tube. Use Citymapper to find the best bus routes.", "likes": 312 },
+      { "emoji": "🛍️", "tag": "Save Money", "title": "Pret subscription changed my life", "body": "Pret A Manger's subscription is £30/month for up to 5 drinks per day. If you go to campus daily and drink coffee/tea, this pays off in less than a week.", "likes": 445 },
+      { "emoji": "🎟️", "tag": "Student Life", "title": "TOTUM + UNiDAYS = free discounts everywhere", "body": "Get both TOTUM card (£12/yr) and UNiDAYS (free app). Combined they cover pretty much every major UK retailer, restaurants, and travel booking sites.", "likes": 189 },
+      { "emoji": "🌧️", "tag": "Weather", "title": "It rains sideways in November", "body": "Get a waterproof outer layer with a hood, not just an umbrella. Wind makes umbrellas useless half the time. Uniqlo's Blocktech jackets are affordable and actually work.", "likes": 267 },
+      { "emoji": "🍕", "tag": "Food", "title": "Tesco Meal Deal is a student institution", "body": "For £3.90, you get a sandwich/wrap + snack + drink. Nearly every student in the UK knows this deal. It's the unofficial student lunch.", "likes": 521 },
+      { "emoji": "🗺️", "tag": "Apps", "title": "Citymapper > Google Maps for London", "body": "Citymapper is specifically built for London transit. It shows real-time tube delays, exact platform numbers, step-free options, and fastest walking shortcuts. Download it day 1.", "likes": 398 },
+      { "emoji": "🏠", "tag": "Housing", "title": "Zone 2-3 > Zone 1 for student living", "body": "Living in Zone 1 is unnecessarily expensive. Zone 2 or 3 areas like Stratford, Hackney, Lewisham give you way more space for less money and the Tube is still accessible.", "likes": 234 },
+      { "emoji": "📚", "tag": "Student Life", "title": "The British Library is open to all", "body": "You don't need to be a student to use the British Library's reading rooms — just register for a free reader pass online. Better study atmosphere than most university libraries.", "likes": 176 },
+      { "emoji": "💳", "tag": "Save Money", "title": "Monzo works better than a UK bank account", "body": "Most international students struggle to open a traditional UK bank. Monzo opens instantly with just a passport and has no fees. Works for everything — rent, Oyster top-up, online shopping.", "likes": 356 },
+      { "emoji": "🧺", "tag": "Life Hack", "title": "Wash clothes at off-peak times", "body": "If your accommodation has shared laundry, 7–9am on weekdays is always empty. Night cycles use cheaper electricity too. Most halls display electricity rate schedules.", "likes": 143 }
+    ]
+  },
+  "hongkong": {
+    "food": {
+      "title": "Food & Restaurants",
+      "intro": "Hong Kong has one of the greatest food cultures in the world — from £2 HK-style breakfasts to Michelin-starred dim sum. Eating well here is both cheap and incredible.",
+      "sections": [
+        {
+          "name": "Local Classics",
+          "emoji": "🥢",
+          "items": [
+            { "name": "Cha Chaan Teng (茶餐廳)", "desc": "Hong Kong-style diners serving milk tea, pineapple buns, scrambled eggs on toast, and congee. The most iconic local dining experience. Usually under HK$60 for a full breakfast.", "tag": "local" },
+            { "name": "Dai Pai Dong (大牌檔)", "desc": "Outdoor hawker-style stalls serving stir-fried food, BBQ, and seafood at low prices. Great atmosphere, especially at night.", "tag": "local" },
+            { "name": "Cooked Food Centres", "desc": "Government-run hawker centres inside markets (like Wan Chai Market). Multiple vendors, cheap and delicious lunch options.", "tag": "local" },
+            { "name": "7-Eleven / Circle K", "desc": "Convenience stores are a legitimate meal option here — steamed buns, instant noodles, HK-style milk tea, rice boxes. Open 24/7.", "tag": "tip" }
+          ]
+        },
+        {
+          "name": "Budget Eats",
+          "emoji": "💸",
+          "items": [
+            { "name": "Sham Shui Po (深水埗)", "desc": "One of the cheapest areas for food in HK. Traditional bakeries, noodle shops, and street food at very low prices. Also great for cheap electronics.", "tag": "neighbourhood" },
+            { "name": "Mong Kok Street Food", "desc": "Egg waffles (雞蛋仔), fish balls (魚蛋), and curry squid from street vendors. Most under HK$20.", "tag": "neighbourhood" },
+            { "name": "University Canteens", "desc": "Every HKU/HKUST/CUHK campus has heavily subsidised canteens. Often the best value meal in the city — a full lunch for HK$35–50.", "tag": "tip" },
+            { "name": "Wellcome / ParknShop Ready Meals", "desc": "Supermarket ready-made siu mei (roast meats), bento boxes and snacks. Great for quick cheap meals.", "tag": "tip" }
+          ]
+        },
+        {
+          "name": "Must-Try HK Food",
+          "emoji": "🧇",
+          "items": [
+            { "name": "Dim Sum", "desc": "Sunday yum cha is a HK cultural ritual. Tim Ho Wan is Michelin-starred but affordable. Go with friends.", "tag": "local" },
+            { "name": "HK Milk Tea (港式奶茶)", "desc": "Stronger and silkier than regular milk tea. Made with evaporated milk and pulled through a silk stocking filter. Order it 'hot' (熱) or 'iced' (凍).", "tag": "local" },
+            { "name": "Pineapple Bun (菠蘿包)", "desc": "No pineapple in it — the crust just looks like one. Best eaten hot with a slab of butter inside (波蘿油). Under HK$10 from any cha chaan teng.", "tag": "local" },
+            { "name": "Roast Goose (燒鵝)", "desc": "Yat Lok and Kam's Roast Goose are legendary. More affordable than you'd expect. A must-eat in HK.", "tag": "local" }
+          ]
+        }
+      ]
+    },
+    "supermarkets": {
+      "title": "Supermarkets & Grocery",
+      "intro": "Hong Kong supermarkets are compact but well-stocked. Wet markets are often cheaper for fresh produce.",
+      "items": [
+        { "name": "Wellcome (惠康)", "emoji": "🟢", "price": "$", "desc": "Most common supermarket chain. Conveniently located everywhere. Great for everyday items.", "tip": "Look for yellow 'Price Watch' stickers for best deals. Stamp card gives discounts." },
+        { "name": "ParknShop (百佳)", "emoji": "🔴", "price": "$", "desc": "The other major chain. Similar prices to Wellcome. Better selection of international products.", "tip": "ParknShop VIP card accumulates points for discounts." },
+        { "name": "Wet Markets (街市)", "emoji": "🥦", "price": "$", "desc": "Government wet markets in every district. Fresh vegetables, meat, and fish — significantly cheaper than supermarkets.", "tip": "Go early morning (7–9am) for best selection. Prices drop in the last hour before closing." },
+        { "name": "City'super", "emoji": "🌿", "price": "$$$", "desc": "Premium imported goods supermarket. Good for international food and specialty items.", "tip": "Great for Western food cravings but not daily shopping." },
+        { "name": "Sham Shui Po Market", "emoji": "🏮", "price": "$", "desc": "One of the cheapest wet markets in HK. Wide variety of fresh produce and dried goods.", "tip": "Also buy bulk dried goods like rice, dried mushrooms, and Chinese herbs here at great prices." },
+        { "name": "HKTV Mall Online", "emoji": "📱", "price": "$$", "desc": "Online supermarket with same-day or next-day delivery. Very useful if you live without nearby shops.", "tip": "Minimum order thresholds for free delivery. Group orders with flatmates." },
+        { "name": "Japanese Supermarkets (AEON, Aeon Max Value)", "emoji": "🇯🇵", "price": "$$", "desc": "Japanese-run supermarkets with Japanese imports, fresh produce, and great prepared foods.", "tip": "AEON has excellent bento sets for lunch — around HK$40–60." }
+      ]
+    },
+    "life": {
+      "title": "Life & Living Tips",
+      "intro": "Hong Kong moves fast. Here's what you need to know to keep up.",
+      "items": [
+        { "emoji": "🚇", "category": "Transport", "tip": "Get an Octopus card (八達通) from any MTR station immediately — it works on MTR, buses, minibuses, ferries, trams, AND pays at 7-Eleven, McDonald's, and many shops." },
+        { "emoji": "🏦", "category": "Banking", "tip": "Open an HSBC or Hang Seng bank account. Bring passport + student visa + university letter. HSBC Smart Account has no minimum balance for students." },
+        { "emoji": "📱", "category": "SIM Card", "tip": "3HK and SmarTone have best student deals. 3HK local SIM with unlimited local data starts around HK$98/month. Get one at the airport or any MTR station." },
+        { "emoji": "🛏️", "category": "Housing", "tip": "HK rent is extremely high. University halls are heavily subsidised — apply ASAP when offered. Off-campus, look at platforms like 591.com.hk or Facebook groups." },
+        { "emoji": "🌡️", "category": "Weather", "tip": "Summers (May–Sep) are extremely hot and humid (35°C+). Typhoon season is June–October. Download the HKO (Hong Kong Observatory) app for typhoon and rainstorm warnings." },
+        { "emoji": "🌀", "category": "Typhoon", "tip": "When Typhoon Signal 8 or above is raised, schools and offices close. Check the HKO app. Signal 3 means it's coming but things are still open — prepare." },
+        { "emoji": "🏥", "category": "Health", "tip": "Public hospitals have A&E for HK$180 per visit. For minor issues, private GP clinics are everywhere and cost HK$300–500 per visit. University clinics are cheaper for enrolled students." },
+        { "emoji": "📦", "category": "Shopping", "tip": "Mong Kok has everything — electronics, fashion, gadgets, stationary. Sham Shui Po for cheap tech and fabric. Avoid tourist shops in Tsim Sha Tsui for everyday items." },
+        { "emoji": "💵", "category": "Money", "tip": "HK$ is pegged to the USD. ATMs at 7-Eleven and HSBC are fee-free for most cards. Avoid currency exchange kiosks at tourist spots — rates are terrible." },
+        { "emoji": "🧧", "category": "Culture", "tip": "Download the 'HK' app and 'HA Go' (Hospital Authority) for health services. Also get the MTR Mobile app for journey planning and real-time disruption updates." }
+      ]
+    },
+    "tips": [
+      { "emoji": "🚌", "tag": "Transport", "title": "Minibus is faster than MTR sometimes", "body": "Green minibuses (綠色小巴) run fixed routes and are often faster than the MTR for short trips. Red minibuses go wherever you want if you speak Cantonese. Flat fare, just tap Octopus.", "likes": 203 },
+      { "emoji": "🍵", "tag": "Food", "title": "Learn how to order in cha chaan teng", "body": "Milk tea = 奶茶 (naai cha). Iced = 凍 (dung). Hot = 熱 (yeet). Pineapple bun with butter = 菠蘿油 (boh loh yau). Knowing these 4 phrases will make your breakfast life infinitely better.", "likes": 456 },
+      { "emoji": "🌀", "tag": "Weather", "title": "Typhoon day = staycation in convenience store", "body": "When T8 is hoisted, everything closes. Stock up on 7-Eleven food the night before. The city becomes weirdly quiet and it's actually a great excuse to catch up on shows.", "likes": 387 },
+      { "emoji": "💳", "tag": "Save Money", "title": "Octopus = your wallet replacement", "body": "Charge your Octopus at 7-Eleven, MTR machines, or the app. It works at most fast food, supermarkets, vending machines, and transport. You barely need cash in HK.", "likes": 512 },
+      { "emoji": "🏊", "tag": "Student Life", "title": "Government sports facilities are insanely cheap", "body": "LCSD (Leisure and Cultural Services) runs public pools, gyms, and sports halls across HK. Entry is HK$19 for a swim. You need a LCSD account (free, online). Much cheaper than private gyms.", "likes": 278 },
+      { "emoji": "📚", "tag": "Student Life", "title": "Public libraries are everywhere and underused", "body": "HKPL (Hong Kong Public Library) has 70+ branches. Free membership with HKID or study visa. Good study spaces, air-conditioned, and you can borrow books, movies, and music CDs.", "likes": 167 },
+      { "emoji": "🛵", "tag": "Food", "title": "Foodpanda vs Deliveroo — know the difference", "body": "Foodpanda tends to have cheaper delivery fees but Deliveroo has better restaurant selection. Both have student promo codes regularly. Check both apps before ordering.", "likes": 189 },
+      { "emoji": "🌃", "tag": "Life Hack", "title": "7-Eleven is open 24/7 and is actually useful", "body": "Pay bills, top up Octopus, buy concert tickets, print documents, send packages — all at 7-Eleven. In HK, convenience stores are genuinely convenient. There's one on every block.", "likes": 334 },
+      { "emoji": "🎓", "tag": "Student Life", "title": "Student MTR discount = 50% off", "body": "Full-time students get ~50% off MTR fares with a registered Octopus student card. Register at any MTR customer service centre with your student ID. Takes 2 weeks to activate.", "likes": 445 },
+      { "emoji": "🌿", "tag": "Health", "title": "Hike! HK has 260+ hiking trails", "body": "HK is 70% green — massive country parks and coastlines. Dragon's Back, Lion Rock, Lantau Peak are all accessible by public transport. Free, beautiful, and great for mental health.", "likes": 398 }
+    ]
+  }
+}
