@@ -6,7 +6,6 @@
   <title>CityStart — Your City, Simplified</title>
   <link rel="stylesheet" href="./style.css" />
 </head>
-
 <body>
   <header class="header">
     <div>
@@ -15,20 +14,13 @@
         Essential apps &amp; services for international students, curated by locals.
       </p>
     </div>
-
     <div class="controls">
       <select id="city">
         <option value="toronto" selected>🇨🇦 Toronto</option>
         <option value="london">🇬🇧 London</option>
         <option value="hongkong">🇭🇰 Hong Kong</option>
       </select>
-
-      <input
-        id="search"
-        type="search"
-        placeholder="Search apps (e.g., TTC, bank, groceries)..."
-      />
-
+      <input id="search" type="search" placeholder="Search apps (e.g., TTC, bank, groceries)..." />
       <select id="priority">
         <option value="all">All priorities</option>
         <option value="must-have">Must-have</option>
@@ -37,12 +29,17 @@
     </div>
   </header>
 
+  <!-- Page nav -->
+  <nav class="guide-nav">
+    <a href="./index.html" class="active">📱 Apps &amp; Services</a>
+    <a href="./city-guide.html">🗺️ City Guide</a>
+  </nav>
+
   <main class="main">
     <aside class="sidebar">
       <div class="sidebar-title">Categories</div>
       <ul id="categoryList" class="category-list"></ul>
     </aside>
-
     <section class="content">
       <div class="meta" id="meta"></div>
       <div id="cards" class="cards"></div>
@@ -53,7 +50,6 @@
   <footer class="footer">
     <span>© 2026 CityStart · Built by <a href="https://github.com/vascosio1114" target="_blank">Vasco Sio</a></span>
   </footer>
-
   <script src="./app.js"></script>
 </body>
 </html>
